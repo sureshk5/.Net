@@ -1,0 +1,3 @@
+Assignments:
+Create the Calc program that was shown in the class. 
+Find the differences with a sample code on Copy vs. Clone vs. CopyTo of the Array class. 

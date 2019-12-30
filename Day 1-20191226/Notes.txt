@@ -1,0 +1,27 @@
+MS.NET is a technology for developing various kinds of Apps using a variety of languages that can primarily work on Windows OS but could be extended to other platforms.
+The popular language for developing .NET Apps is C#(C-Sharp). It has features similar to C++ and certain syntactical features of Java and Visual Basic. However C# has extended its capabilities to other languages also.
+.NET was started in 2002 as .NET Framework 1.0. Current version is 4.7.2 with Visual Studio 2019. In this course of time, many features had been incorporated into the .NET for enhanced Application development. 
+With .NET, U could develop various kinds of Applications including Web, Mobile, Micro, Database, Desktop(Windows) and many other kinds of Applications.
+Features of .NET:
+Language In-dependency. A component or a program written in one language of .NET can be used in another language of the .NET Family. .NET technology can be used by around 35 programming languages in the computing world including Python, Pascal, C++ and many more.
+Productivity is the other feature of .NET. It means that Application could be developed at much larger pace compared to its other competitors.
+Platform in-dependency is achieved in .NET  thro' a sub version of .NET called .NET CORE. .NET CORE is the new entrant in the MS family to create .NET Apps in a platform independent manner.
+Visual Studio is the IDE for developing .NET Applications. 
+.NET Technology and the .NET Framework is free of cost. Its available in every shipment of the Windows OS since Windows XP 3rd Edition. Currently all flavors of Windows do have the .NET Framework available. U could develop the .NET Apps using normal text editor and compile the programs using Command Prompt. 
+However, for faster development, we would recommend to go for Visual Studio. The learning edition of the VS is available as Community edition that can be downloaded free of cost from the MS website. For development U could for professional Edition or Enterprise Edition. 
+Even though .NET is a language independent technology, C# is the most popular programming language of .NET. C# is a tailor made language for .NET and created using .NET. It has the best of C++, Java and VB, then the most popular programming languages(1999-2000).
+CSC is the command used for compiling C# programs from the Cmd. 
+CS is the file extension for all C# files that U develop. 
+ 
+ 
+C# Program features:
+ 
+
+
+
+
+   
+
+ 
+  
+   

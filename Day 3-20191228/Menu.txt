@@ -1,0 +1,8 @@
+﻿~~~~~~~~~~~~~~~~~~Phani's Travel Blog~~~~~~~~~~~~~~~~~
+TO LOGIN------------------->PRESS 1
+TO SIGNUP------------------>PRESS 2
+TO ADD NEW TRAVEL INFO----->PRESS 3
+TO EDIT TRAVEL DETAILS----->PRESS 4
+TO FIND TRAVEL INFO-------->PRESS 5
+PS: ANY OTHER KEY IS CONSIDERED AS EXIT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,40 @@
+﻿@model SampleMvcApp.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Insert</title>
+</head>
+<body>
+    <h1>Register New Employee</h1>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>
+                Employee ID: @Html.EditorFor((e) => e.EmpID)
+            </p>
+            <p>
+                Employee Name: @Html.EditorFor((e) => e.EmpName)
+            </p>
+            <p>
+                Employee Address: @Html.EditorFor((e) => e.EmpAddress)
+            </p>
+            <p>
+                Employee Phone: @Html.EditorFor((e) => e.EmpPhone)
+            </p>
+            <p>
+                Employee Salary: @Html.EditorFor((e) => e.EmpSalary)
+            </p>
+            <p>
+                <button>Save Changes</button>
+            </p>
+        }
+    </div>
+</body>
+</html>

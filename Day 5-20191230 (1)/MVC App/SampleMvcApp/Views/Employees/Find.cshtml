@@ -1,0 +1,31 @@
+﻿@model SampleMvcApp.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Find</title>
+</head>
+<body>
+    <h1>Update Changes!!!!</h1>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>
+                Employee ID: @Html.DisplayFor((emp) => emp.EmpID)
+                @Html.HiddenFor((emp)=>emp.EmpID)
+        </p>
+            <p>Employee Name: @Html.EditorFor((emp) => emp.EmpName)</p>
+            <p>Employee Address: @Html.EditorFor((emp) => emp.EmpAddress)</p>
+            <p>Employee Phone: @Html.EditorFor((emp) => emp.EmpPhone)</p>
+            <p>Employee Salary: @Html.EditorFor((emp) => emp.EmpSalary)</p>
+            <input type="submit" value="Make Changes" />
+        }
+    </div>
+</body>
+</html>

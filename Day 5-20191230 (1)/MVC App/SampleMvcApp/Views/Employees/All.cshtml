@@ -1,0 +1,44 @@
+﻿@using System.Data;
+@model List<SampleMvcApp.Models.Employee>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>All</title>
+</head>
+<body>
+    <h1>List of Employees with Us!!!!</h1>
+    <p>
+        @Html.ActionLink("Register", "Insert")
+    </p>
+    <hr/>
+    <div>
+        <table border="1" width="100%">
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Address</th>
+                <th>Employee Phone</th>
+                <th>Employee Salary</th>
+                <th>Options</th>
+            </tr>
+            @foreach (var row in Model)
+            {
+            <tr>
+                <td>@row.EmpID</td>
+                <td>@row.EmpName</td>
+                <td>@row.EmpAddress</td>
+                <td>@row.EmpPhone</td>
+                <td>@row.EmpSalary</td>
+                <td>@Html.ActionLink("Edit", "Find", new { id = row.EmpID })</td>
+            </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
